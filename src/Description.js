@@ -1,8 +1,8 @@
 // DO NOT DELETE
 import * as React from 'react'
-import DogImage from './DogImage'
+import { DogImage } from './DogImage'
 
-function Description(props){
+export function Description(props){
   return(
     <div className="Wrap">
       <span className="message">
@@ -13,4 +13,3 @@ function Description(props){
   )
 }
 
-export default Description;
