@@ -2,6 +2,8 @@
 
 import * as React from 'react'
 import './App.css'
+import Header from './Header'
+import Description from './Description'
 
 /**
  * 
@@ -10,7 +12,8 @@ import './App.css'
 export const App = () => {
   return (
     <div>
-      <h2>Hello, world!</h2>
+      <Header title="Dogアプリ" />
+      <Description desc="犬の画像を表示するサイトです" />
     </div>
   )
 }
