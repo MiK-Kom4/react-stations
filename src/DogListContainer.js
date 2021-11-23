@@ -2,12 +2,19 @@
 import * as React from 'react'
 import { useState } from 'react'
 
-export const DogListContainer = () => {
+export const DogListContainer = (props) => {
   const [breeds, setBreeds] = useState()
-  React.useEffect(() => {
+  useEffect(() => {
     fetch("https://dog.ceo/api/breeds/list/all")
       .then(res => res.json)
       .then(data => setBreeds.message);
   },[])
+
+  return (
+    <div>
+      <h2></h2>
+    </div>
+  )
+
 }
 
