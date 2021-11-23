@@ -12,7 +12,7 @@ import { DogListContainer } from './DogListContainer'
  */
 export const App = () => {
   return (
-    <div>
+    <div className="container">
       <Header title="Dogアプリ" />
       <Description desc="犬の画像を表示するサイトです" />
     </div>

@@ -56,11 +56,16 @@ a.btn--blue:hover {
 }
 
 .image {
-  width: 500px;
-  height: 377px;
+  width: 300px;
+  height: 230px;
 }
 
 .item {
   float: right;
   margin-right: 15%;
+}
+
+.container {
+  border-bottom: 1px solid black;
+  padding-bottom: 250px;
 }
