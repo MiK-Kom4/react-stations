@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 export const DogListContainer = (props) => {
   const [breeds, setBreeds] = useState()
-  useEffect(() => {
+  React.useEffect(() => {
     fetch("https://dog.ceo/api/breeds/list/all")
       .then(res => res.json)
       .then(data => setBreeds.message);
